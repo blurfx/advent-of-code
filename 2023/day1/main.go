@@ -9,7 +9,7 @@ import (
 )
 
 func readInput() []string {
-	bytes, _ := os.ReadFile("day1.input")
+	bytes, _ := os.ReadFile("day1/input")
 	return strings.Split(string(bytes), "\n")
 }
 
